@@ -69,7 +69,7 @@ Vamos criar uma API que irá ter CRUD de usuários e projetos desses usuários.
 
 ```sql
 -- create database
-CREATE DATABASE knex_test;
+CREATE DATABASE masterClassKnex;
 
 -- create table
 CREATE TABLE users (
