@@ -58,9 +58,9 @@ Vamos criar uma API que irá ter CRUD de usuários e projetos desses usuários.
 - [x]  Delete
 - [x]  Add error handling
 - [x]  Separar Rotas e criar controllers
-- [ ]  Create projects table (Relacionamento com users)
-- [ ]  Criar migration e seed
-- [ ]  Join User Projects
+- [x]  Create projects table (Relacionamento com users)
+- [x]  Criar migration e seed
+- [x]  Join User Projects
 - [ ]  Paginação de Projetos
 - [ ]  Soft Delete (user)
 - [ ]  Procedures & Triggers (updated_at)

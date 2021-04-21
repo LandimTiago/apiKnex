@@ -8,6 +8,9 @@ exports.seed = function (knex) {
         { username: 'Tiago' },
         { username: 'Diego' },
         { username: 'Allana' },
+        { username: 'Antonio' },
+        { username: 'Felipe' },
+        { username: 'Ana' },
       ]);
     });
 };
