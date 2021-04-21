@@ -53,11 +53,11 @@ Vamos criar uma API que irá ter CRUD de usuários e projetos desses usuários.
 - [x]  Run Migration and Seeds `migrate:latest` `seed:run`
 - [x]  Usando o Knex 
 - [x]  Select
-- [ ]  Insert
-- [ ]  Update
-- [ ]  Delete
-- [ ]  Add error handling
-- [ ]  Separar Rotas e criar controllers
+- [x]  Insert
+- [x]  Update
+- [x]  Delete
+- [x]  Add error handling
+- [x]  Separar Rotas e criar controllers
 - [ ]  Create projects table (Relacionamento com users)
 - [ ]  Criar migration e seed
 - [ ]  Join User Projects
