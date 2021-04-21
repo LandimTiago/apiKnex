@@ -4,17 +4,22 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
-      host: "localhost",
-      user: "postgres",
-      password: "112233",
       database: "masterClassKnex",
+      user: "postgres",
+      password: "112233"
     },
     migrations: {
-      tableName: 'knexMigration',
+      tableName: 'knex_migrations',
       directory: `${__dirname}/src/database/migrations`
     },
     seeds: {
       directory: `${__dirname}/src/database/seeds`
     }
   },
+  onUpdateTrigger: table => `
+  CREATE TRIGGER ${table}_updated_at
+  BEFORE UPDATE ON ${table}
+  FOR EACH ROW
+  EXECUTE PROCEDURE on_update_timestamp();
+  `
 };

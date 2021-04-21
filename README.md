@@ -51,7 +51,7 @@ Vamos criar uma API que irá ter CRUD de usuários e projetos desses usuários.
 - [x]  Create user migration  `npx knex migrate:make migration_name`
 - [x]  Create user seed  `npx knex seed:make seed_name`
 - [x]  Run Migration and Seeds `migrate:latest` `seed:run`
-- [x]  Usando o Knex 
+- [x]  Usando o Knex
 - [x]  Select
 - [x]  Insert
 - [x]  Update
@@ -61,9 +61,9 @@ Vamos criar uma API que irá ter CRUD de usuários e projetos desses usuários.
 - [x]  Create projects table (Relacionamento com users)
 - [x]  Criar migration e seed
 - [x]  Join User Projects
-- [ ]  Paginação de Projetos
-- [ ]  Soft Delete (user)
-- [ ]  Procedures & Triggers (updated_at)
+- [x]  Paginação de Projetos
+- [x]  Soft Delete (user)
+- [x]  Procedures & Triggers (updated_at)
 
 ## 💧 Code/Drops
 
